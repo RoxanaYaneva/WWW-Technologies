@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Избираеми дисциплини </title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="POST" action="./forms_validation.php">
+		<fieldset>
+			<legend> Избираема дисциплина </legend>
+			<label> Предмет: <input name="title" placeholder="Мax 150 characters" required> </label> <br>
+			<label> Преподавател: <input name="lecturer" placeholder="Мax 200 characters" required> </label> <br>
+			<label> Описание: <input name="description" required> </label> <br>
+			<label> Категория: </label>
+			<label> <input type="radio" name="group" value="M" checked> М </label>
+			<label> <input type="radio" name="group" value="PM"> ПМ </label>
+			<label> <input type="radio" name="group" value="OKN"> ОКН </label>
+			<label> <input type="radio" name="group" value="YKN"> ЯКН </label> <br>
+			<label> Кредити: <input name="credits" type="number" min="1" max="9" value="1"> </label> <br>
+			<input type="submit" value="Submit">
+		</fieldset>	
+	</form>
+</body>
+</html>
