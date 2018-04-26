@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Добавяне на избираема дисциплина </title>
+	<meta charset="utf-8">
+	<link href="forms.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<form action="forms_validation.php" method="POST">
+		<fieldset>
+			<legend> Избираема дисциплина </legend>
+			<label> Предмет: <input name="title" placeholder="Мax 150 characters" required> </label>
+			<label> Преподавател: <input name="lecturer" placeholder="Мax 200 characters" required> </label>
+			<label> Описание: <input name="description"  placeholder="Min 10 characters" required> </label>
+			<input class="submit" type="submit" value="Submit">
+		</fieldset>	
+	</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+	font-size: 12px;
+	font-family: Ariel, sans-serif;
+}
+
+fieldset {
+	background: #bfc5cc;
+	width: 400px;
+}
+
+legend {
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+
+label {
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+input {
+	float: right;
+	border-radius: 5px;
+}
+
+.submit {
+	background: #1f4d84;
+	color: white;
+	border-radius: 12px;
+	border: none;
+	padding: 7px;
+}
